@@ -1,0 +1,34 @@
+# Ignorar arquivos e pastas que não devem ser usados como contexto pelo GitHub Copilot
+
+# Binários e artefatos de build
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+bin/
+obj/
+
+# Dependências
+vendor/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache e arquivos temporários
+*.log
+*.tmp
+
+# Arquivos de configuração sensíveis ou redundantes
+/go.sum
+.env
+
+# Outros arquivos que não agregam valor ao contexto de código
+LICENSE
